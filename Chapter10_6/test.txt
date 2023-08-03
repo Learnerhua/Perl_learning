@@ -1,0 +1,8 @@
+my name is oyjh
+This is the EOF second line
+THis is the third line
+this is the fourth line __END__
+this is the fifth line
+
+
+

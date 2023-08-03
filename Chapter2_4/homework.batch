@@ -1,0 +1,44 @@
+#!/bin/perl
+use v5.16;
+use warnings;
+use utf8;
+
+#my $radius=12.5;
+#say my $perimeter=$radius*2*3.141592654;
+
+#say "Please enter the radius of the circle:";
+#chomp(my $radius=<STDIN>);
+#if ($radius < 0){
+#	$radius=0;
+#}
+#my $perimeter=$radius*2*3.141592654;
+#say "The perimeter of the circle is $perimeter";
+
+#say "Please enter the first number:";
+#chomp(my $firnum=<STDIN>);
+#say "Please enter the second number:";
+#chomp(my $secnum=<STDIN>);
+#my $result=$firnum*$secnum;
+#say "The result of their product is $result";
+
+#say "Please enter the charater you want to reduplicate:";
+#chomp(my $char=<STDIN>);
+#say "Please enter the number of repetitions:";
+#chomp(my $repe=<STDIN>);
+#say "Result:";
+#my $n=0;
+#while ($n<$repe){
+#	say "$char";
+#	$n +=1;
+#}
+
+say "Please enter the charater you want to reduplicate:";
+chomp(my $char=<STDIN>);
+say "Please enter the number of repetitions:";
+chomp(my $repe=<STDIN>);
+my $result="$char\n"x$repe;
+print "$result"
+
+
+
+
